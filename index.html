@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Referral Management System</title>
+</head>
+<body>
+    <h1>Referral Management System</h1>
+    <form id="referral-form">
+        <label for="specialty">Specialty:</label>
+        <input type="text" id="specialty" name="specialty">
+        <br>
+        <label for="insurance">Insurance:</label>
+        <input type="text" id="insurance" name="insurance">
+        <br>
+        <label for="clinical-notes">Clinical Notes:</label>
+        <textarea id="clinical-notes" name="clinical-notes"></textarea>
+        <br>
+        <button type="submit">Find Providers</button>
+    </form>
+    <h2>Recommended Providers</h2>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
