@@ -18,7 +18,7 @@
         clinical_notes: clinicalNotes,\
     \};\
 \
-    const response = await fetch('http://localhost:8080/find_best_providers', \{\
+    const response = await fetch('https://FLASKY.adamd5963.repl.co/find_best_providers', \{\
         method: 'POST',\
         headers: \{\
             'Content-Type': 'application/json',\
