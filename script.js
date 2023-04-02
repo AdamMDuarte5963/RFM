@@ -18,7 +18,7 @@
         clinical_notes: clinicalNotes,\
     \};\
 \
-    const response = await fetch('https://e90e-2601-588-4102-5d30-e93a-af94-6e8e-eb1.ngrok.io/find_best_providers', \{\
+    const response = await fetch(' https://5459-2601-588-4102-5d30-e93a-af94-6e8e-eb1.ngrok.io/find_best_providers', \{\
         method: 'POST',\
         headers: \{\
             'Content-Type': 'application/json',\
